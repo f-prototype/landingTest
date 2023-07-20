@@ -1,0 +1,24 @@
+.App {
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-m);
+  line-height: normal;
+  color: var(--text-color);
+  // padding: 0px 10%;
+  margin: auto;
+}
+
+@media (max-width: 1250px) {
+  .App {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 420px) {
+  .App {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  margin-left: 40px;
+}
+.iconsContainer {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 47px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: var(--text-color);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    margin-left: 0px;
+  }
+  .iconsContainer {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    display: none;
+  }
+}

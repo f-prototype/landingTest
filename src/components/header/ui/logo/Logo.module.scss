@@ -1,0 +1,22 @@
+.container {
+  width: 140px;
+}
+
+.logo {
+  width: 100%;
+  height: 24px;
+}
+
+.text {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Montserrat';
+  margin-top: 10px;
+}
+
+@media (max-width: 420px) {
+  .container {
+    display: none;
+  }
+}

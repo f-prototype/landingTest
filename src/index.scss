@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --text-color: #e4e5ea;
+  --secondary-text-color: #656566;
+  --text-gradient: linear-gradient(90deg, #fcb045 1%, #ff3f78 100%);
+  --second-gradient: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-b: 48px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font-size: inherit;
+}
+
+body {
+  background-color: #0e1014;
+  background-image: url('./img/Bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 420px) {
+  :root {
+    --font-size-s: 12px;
+    --font-size-m: 14px;
+    --font-size-l: 18px;
+    --font-size-b: 36px;
+  }
+  body {
+    background-image: none;
+  }
+}
